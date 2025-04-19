@@ -1,0 +1,2 @@
+static html - inital html remains constant 
+dynamic html - initial html changes and other stuff keep adding 

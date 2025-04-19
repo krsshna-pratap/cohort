@@ -1,0 +1,24 @@
+bash video 
+
+terminal is nothing but another interface to do things on your machine 
+
+1 pwd ~ present working directory
+2 cd ~ change directory
+3 ls ~ list all files 
+4 mkdir ~ create a new folder / directory 
+5 touch ~ create an empty new file 
+6 cat ~ prints content of file, ct > to add something to files then ctrl + D, then for add again cat >> then ctrl + D, touch filename to view it   
+7 vi ~ edit file, not for beginners, can't directly edit file first we need to go into insert mode to edit files, to move out after editing file use command esc + :q!, print enter 
+8 mv ~ move files from one to other like : mv a.txt new-folder/ 
+9 cp ~ copy files from one to other like : cp a3.js test2
+10 node ~ to run js files : js filename.js  
+11 chmod ~ change file permissions 
+12 (|) pipe character ~ whatever o/p as a result comes from command 1 will go to command 2 
+13 wc ~ count words in file 
+14 ls dirName ~ what's there in that directory
+15 ls -lr dirName ~ in reverse order
+16 ls -lRa dirName ~ 
+17 ls -s dirName ~ 
+18 ls *.js ~ list all js files 
+19 
+20 

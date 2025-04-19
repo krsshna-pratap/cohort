@@ -1,0 +1,10 @@
+when we build full-stack applications we will have fleet of backend servers most of them are transient which means when one server will down it will not affect the application as other one will take that load
+
+we will build stateless backends which means they are not persisting any data 
+we stored data in a particular server, when that server downs that data is lost means not persisted
+thus we should build stateless servers
+
+databases are more secure. we will autoscale (up and down) databases too much on regular basis 
+we will have a fleet of databases but these are meant to be more stable we will not increase them a lot, rare cases we will touch that infrastructure. 
+
+if this infrastructre got destroyed all data is lost forever while in servers this is not the case as it will be down for few hours or day, then we will be back but this is not possible in databases.

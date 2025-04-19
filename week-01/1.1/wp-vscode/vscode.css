@@ -1,0 +1,9 @@
+/* each colour can be represented in rgb values i.e, combination of red green n blue w their converted hexa values */
+body {
+    background-color: #0e0e0e;
+}
+.topLink {
+    color: grey;
+    cursor: pointer;
+    padding-left: 10px;
+}

@@ -1,0 +1,36 @@
+<!-- can have multiple approaches -->
+<!-- 1 - put margin auto of left and right -->
+<!-- 2 - put center tag to div -->
+<!-- 3 - put div style flex w justify content center -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width : 1200px;
+            /* margin: 100px, 200px; */ 
+            /* it is similar like */ /* margin-top: 100px; margin-bottom: 100px; margin-left: 400px; margin-right: 400px; */
+            /* margin : 0px auto; */
+            background-color: red;
+        }
+        .content{
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <center> -->
+    <div style="display: flex; justify-content: center;">
+        <div class="container">
+            <div class="content">
+                <h1>hello-world</h1>
+            </div>
+        </div>
+    </div>
+    <!-- </center> -->
+</body>
+</html>

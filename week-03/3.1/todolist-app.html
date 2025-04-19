@@ -1,0 +1,27 @@
+<html>
+    <body>
+        <input type="text"></body>
+        <button onclick="addToDo()">Add-ToDo</button>
+    </body>
+    <script>
+        function addToDo(){
+            let ctr = 1;
+    
+            const inputEL = document.querySelector("input");
+            const value = inputEL.value; // text we write inside button be stored here
+    
+            const newDivEL = document.createElement("div");
+            // newDivEL.innerHTML = value;
+            // newDivEL.innerHTML = "<div>Go-To-GYM</div><button>Delete</button>";
+            newDivEL.setAttribute("id", "toDo-" + ctr);
+            newDivEL.innerHTML = "<div>" + value + "<div><button onclick='deleteToDo(" + ctr + ")'>Delete</button>";
+    
+            document.querySelector("body").appendChild(newDivEL); 
+            ctr = ctr + 1;
+        }
+        function deleteToDo(){
+            const element = document.getElementById("toDo-" + index);
+            element.parentNode.removeChild(element);
+        }
+    </script>
+</html>

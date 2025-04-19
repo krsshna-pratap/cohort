@@ -1,0 +1,13 @@
+<html>
+    <body>
+        <div id="topDiv">
+            hi-there-1!
+        </div>
+    </body>
+    <script>
+        const divEL = document.createElement("div");
+        divEL.innerHTML = "hi-there-2!";
+        const parentEL = document.querySelector("body"); // it will select parent body tag
+        parentEL.appendChild(divEL); // it will take this div and put it inside dom
+    </script>
+</html>

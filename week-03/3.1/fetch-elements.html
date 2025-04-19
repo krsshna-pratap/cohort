@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        #todo1{
+            background-color: teal;
+        }
+        .common-class{
+            background-color: wheat;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>To-do-List</h1>
+    <h4 id="todo1">1. Take Class</h4>
+    <h4 class="common-class" id="todo2">2. Go</h4>
+    <h4 class="common-class" id="todo3">Join-GYM</h4>
+    <!-- ids - for unique identification -->
+    <!-- classes - for common operations on multiple tags / no need to repeat similar code -->
+    
+    <div>
+        <input type="text" name="" id="">
+        <button id="btn" onclick="addToDo()">Add-ToDo</button>
+    </div>
+
+    <script>
+        // document.querySelector("input"); // it will let us select first input tag on this page 
+        // const inputElement = document.querySelector("input");
+        // inputElement.value; // it will let us have the value that will be texted in input box
+        // const inputValue = inputElement.value; 
+        function addToDo() {
+            const inputElement = document.querySelector("input"); 
+            const inputValue = inputElement.value; 
+        }
+        // document.querySelector("h4"); // it will let us have first h4 tag on this web page 
+        // document.querySelectorAll("h4"); // it will let us have all h4 tags on this web page in form of array 
+        // document.querySelectorAll("h4")[0]; // it will let us have 0th index of h4 tags array
+        // document.querySelectorAll("todo1"); 
+        // document.getElementById("todo1");
+        // document.getElementById("todo1").innerHTML;
+        // document.querySelectorAll(".common-class");
+        // document.querySelectorAll("common-class");
+        // document.getElementsByClassName(".common-class");
+        
+    </script>
+
+</body>
+</html>
